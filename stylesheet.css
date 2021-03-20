@@ -1,0 +1,128 @@
+body{
+  color: #333;
+  font-family: '凸版文久見出しゴシック';
+margin:0;
+margin-bottom: 30px;
+}
+
+/* header{
+  background-color:pink;
+} */
+
+.container{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.headerimg{
+ height: 300px;
+  background:url("../ヘッダー画像.png");
+  background-size: cover;
+  background-position: center center;
+}
+.container h1{
+  font-size: 40px;
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.container p{
+  font-family:筑紫A丸ゴシック;
+  font-size: 20px;
+  text-align:center;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.info ul{ 
+  width: 800px;
+  /* background-color: royalblue; */
+  list-style-type:none;
+  display: flex;
+  font-family: 筑紫A丸ゴシック;
+  font-size: 10px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info li{
+  /* background-color: purple; */
+  width: 350px;
+  margin: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.info li img{
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: #d7d7d7; 
+}
+
+.fotter{
+  color: #d7d7d7;
+  font-size: 5px;
+  text-align: center;
+}
+
+.info li img:hover{
+opacity: 0.8;
+}
+
+/* .omikuji{
+  width: 400px;
+  height: 50px;
+  background:#c8c8c8;
+  margin-top:0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 20px;
+
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+
+  box-shadow: 10px 10px 0 #939393;
+
+}
+
+.omikuji:hover{
+opacity: 0.8;
+} */
+
+/* .tab{
+  width: 300px;
+height:100%;
+  position: fixed;
+  background:lemonchiffon;
+  opacity: 50%;
+} */
+
+/* .tab{
+  max-width  : 300px;
+  height     : 1500px;
+                                      /* ドット（水玉）模様のCSS */
+  background-color   : rgba(255, 255, 255, 0.10);
+  background-image   : radial-gradient(#ff4d4d 30%, transparent 33%),
+                       radial-gradient(#ff4d4d 30%, transparent 33%);
+  background-position: 0 0, 30px 30px;
+  background-size    : 60px 60px;
+ 
+}
+
+.header{
+  position: relati
+} 
+
+.torinikufont{
+  font-family:unnamedfont;
+  font-size: 30px;
+}
